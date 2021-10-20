@@ -1,75 +1,135 @@
-#wrapper {
-	display: flex;
-	justify-content: center;
-	margin: 5%;
-	height:70vh;
-	color: white;
-	background-color: grey;
-	border-radius: 50px;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    width: 1127px;
+    height: 595px;
+    top: 100px;
+    left: 200px;
+    color: #FFFFFF;
 }
 
-#left-aside {
-	position: relative;
-	text-align: center;
-	width: 30vw;
+.card__wrapper {
+    position: absolute;
+    width: 1127px;
+    height: 595px;
+    left: 0px;
+    top: 0px;
+    background: #444444;
+    border-radius: 30px;
 }
 
-#wrapper-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding: 10%;
+.card__user-logo {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    top: 30px;
+    border-radius: 50%;
 }
 
-#user-logo {
-	align-self: center;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+.card__user-name {
+    position: absolute;
+    width: 197px;
+    height: 44px;
+    left: 91px;
+    top: 230px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
 }
 
-#user-name {
-	font-size: 25px;
-	margin: 10px;
+.card__bold-name {
+    width: 400px;
+    height: 44px;
+    left: 550px;
+    top: 200px;
+    font-size: 38px;
+    line-height: 44px;
 }
 
-#user-position {
-	font-size: 20px;
-	margin: 10px;
-	margin-top: 0;
+.card__user-position {
+    position: absolute;
+    width: 127px;
+    height: 23px;
+    left: 126px;
+    top: 331px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
 }
 
-.social-link {
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
+.card__bold-position {
+    width: 140px;
+    height: 25px;
+    left: 683px;
+    top: 270px;
+    font-size: 22px;
+    line-height: 25px;
 }
 
-#download-cv-button {
-	align-self: center;
-	margin: 10px;
-	border: 3px solid white;
-	background-color: grey;
-	border-radius: 20px;
-	color: white;
-	width: 50%;
-	height: 5vh;
-	margin: 30px;
+.card__social-link {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 370px;
+    background: #C4C4C4;
+    border-radius: 50%;
 }
 
-#footer {
-	position: absolute;
-	bottom: 10px;
-	width: 100%;
+.card__social-link__vk {
+    left: 144px;
 }
 
-#wrapper-main {
-	display:flex;
-	flex-direction: column;
-	justify-content:center;
-	text-align: center;
-	width: 60vw;
-	padding: 5%;
-	background-color: black;
-	border-radius: 50px;
+.card__social-link__ok {
+    left: 178px;
+}
+
+.card__social-link__git {
+    left: 212px;
+}
+
+.card__download-cv-button {
+    position: absolute;
+    width: 168px;
+    height: 46px;
+    left: 106px;
+    top: 451px;
+    background: #444444;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.card__footer {
+    position: absolute;
+    width: 170px;
+    height: 16px;
+    left: 105px;
+    top: 563px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.card__wrapper-main {
+    position: absolute;
+    width: 747px;
+    height: 595px;
+    left: 380px;
+    top: 0px;
+    background: #222222;
+    border-radius: 30px;
 }
