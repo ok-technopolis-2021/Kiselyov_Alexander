@@ -4,33 +4,33 @@
         <title>MyCard</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="stylesheet" type="text/css" href="styles/toggle.css">
     </head>
     <body>
         <div class="toggle">
             <input type="checkbox" class="check" id="toggle">
-            <b class="b switch"></b>
-            <b class="b track"></b>
+            <b class="block switch"></b>
+            <b class="block track"></b>
         </div>
-        <div class="card__wrapper">
-            <div class="card__wrapper-left">
+        <section class="card__wrapper">
+            <section class="card__wrapper-left">
                 <img class="card__user-logo" src="./assets/user_logo.jpg" alt="Лого пользователя"/>
                 <div class="card__user-name">Alexander Kiselyov</div>
                 <div class="card__user-position">Student</div>
                 <div class="card__social-links">
-                    <img class="card__social-link card__social-link__vk" src="./assets/vk_logo.png" alt="Лого ВКонтакте"/>
-                    <img class="card__social-link card__social-link__ok" src="./assets/ok_logo.jpg" alt="Лого Одноклассники"/>
-                    <img class="card__social-link card__social-link__git" src="./assets/github_logo.png" alt="Лого Гитхаб"/>
+                    <img class="card__social-link card__social-link__type_vk" src="./assets/vk_logo.png" alt="Лого ВКонтакте"/>
+                    <img class="card__social-link card__social-link__type_ok" src="./assets/ok_logo.jpg" alt="Лого Одноклассники"/>
+                    <img class="card__social-link card__social-link__type_git" src="./assets/github_logo.png" alt="Лого Гитхаб"/>
                 </div>
                 <button class="card__download-cv-button">Download CV</button>
-                <div class="card__footer">@2021 All rights reserved.</div>
-            </div>
-            <div class="card__wrapper-main">
-                <h1 class="card__user-name card__bold-name">Alexander Kiselyov</h1>
-                <h3 class="card__user-position card__bold-position">Student</h3>
-            </div>
-        </div>
+                <footer class="card__footer">@2021 All rights reserved.</footer>
+            </section>
+            <section class="card__wrapper-main">
+                <h1 class="card__user-name card__user-name_style-bold">Alexander Kiselyov</h1>
+                <h3 class="card__user-position card__user-position_style-bold">Student</h3>
+            </section>
+        </section>
     </body>
     <script src="js/toggle.js"></script>
 </html>
