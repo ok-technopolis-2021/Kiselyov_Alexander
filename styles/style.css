@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    font-family: Helvetica;
+    font-style: normal;
+    background-color: #FFFFFF;
+    --text-color: #FFFFFF;
+    --card-color: #444444;
+    --wrapper-right-color: #222222;
+    --shadow-color: #E0FFFF;
+    --cv-color: #444444;
+    --cv-border-color: #FFFFFF;
+    --cv-text-color: #FFFFFF;
+}
+
+html[theme='dark'] {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    font-family: Helvetica;
+    font-style: normal;
+    background-color: #222222;
+    --text-color: #222222;
+    --card-color: #F0FFF0;
+    --wrapper-right-color: #ADD8E6; 
+    --shadow-color: #222222;
+    --cv-color: #40E0D0;
+    --cv-border-color: #E0FFFF;
+    --cv-text-color: #708090;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.card__wrapper {
+    display: flex;
+    width: 1127px;
+    height: 595px;
+    background: var(--card-color);
+    border-radius: 30px;
+}
+
+.card__wrapper-left {
+    position: relative;
+    height: 595px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__user-logo {
+    width: 180px;
+    height: 180px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 20px var(--shadow-color);
+}
+
+.card__user-name {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.card__user-name_style-bold {
+    margin: 10px;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.card__user-position {
+    margin: 5px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.card__user-position_style-bold {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.card__social-link {
+    width: 24px;
+    height: 24px;
+    top: 370px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.card__social-links {
+    display: flex;
+}
+
+.card__social-link__type_vk {
+    left: 144px;
+}
+
+.card__social-link__type_ok {
+    left: 178px;
+}
+
+.card__social-link__type_git {
+    left: 212px;
+}
+
+.card__download-cv-button {
+    width: 168px;
+    height: 46px;
+    margin: 70px;
+    background: var(--cv-color);
+    border: 3px solid var(--cv-border-color);
+    box-sizing: border-box;
+    border-radius: 40px;
+    color: var(--cv-text-color);
+    font-size: 20px;
+}
+
+.card__footer {
+    position: absolute;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    bottom: 20px;
+}
+
+.card__wrapper-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 595px;
+    background: var(--wrapper-right-color);
+    border-radius: 30px;
+    width: 70%;
+}
