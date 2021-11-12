@@ -77,7 +77,7 @@ body {
     text-align: center;
 }
 
-.card__bold-name {
+.card__user-name_style-bold {
     margin: 10px;
     font-size: 38px;
     line-height: 44px;
@@ -91,7 +91,7 @@ body {
     text-align: center;
 }
 
-.card__bold-position {
+.card__user-position_style-bold {
     font-size: 22px;
     line-height: 25px;
 }
@@ -108,15 +108,15 @@ body {
     display: flex;
 }
 
-.card__social-link__vk {
+.card__social-link__type_vk {
     left: 144px;
 }
 
-.card__social-link__ok {
+.card__social-link__type_ok {
     left: 178px;
 }
 
-.card__social-link__git {
+.card__social-link__type_git {
     left: 212px;
 }
 
