@@ -16,6 +16,8 @@ html {
     --cv-color: #444444;
     --cv-border-color: #FFFFFF;
     --cv-text-color: #FFFFFF;
+    --card__skills-button-rotate: 45deg;
+    --card__skills-button-hor-disp: 23%;
 }
 
 html[theme='dark'] {
@@ -34,6 +36,8 @@ html[theme='dark'] {
     --cv-color: #40E0D0;
     --cv-border-color: #E0FFFF;
     --cv-text-color: #708090;
+    --card__skills-button-rotate: 45deg;
+    --card__skills-button-hor-disp: 23%;
 }
 
 body {
@@ -144,6 +148,7 @@ body {
 }
 
 .card__wrapper-main {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
