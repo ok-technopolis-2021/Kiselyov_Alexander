@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyCard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- inject:css -->
+        <link rel="stylesheet" href="./styles/style.css">
+        <!-- endinject -->
+    </head>
+    <body>
+        <div class="toggle">
+            <input type="checkbox" class="check" id="toggle">
+            <b class="b switch"></b>
+            <b class="b track"></b>
+        </div>
+        <div class="card__wrapper">
+            <div class="card__wrapper-left">
+                <img class="card__user-logo" src="./assets/user_logo.jpg" alt="Лого пользователя"/>
+                <div class="card__user-name">Alexander Kiselyov</div>
+                <div class="card__user-position">Student</div>
+                <div class="card__social-links">
+                    <a href="https://vk.com/id213001016"><img class="card__social-link card__social-link__vk" src="./assets/vk_logo.png" alt="Лого ВКонтакте"></a>
+                    <a href="https://ok.ru/profile/569592525687"><img class="card__social-link card__social-link__ok" src="./assets/ok_logo.jpg" alt="Лого Одноклассники"/></a>
+                    <a href="https://github.com/AlexanderKiselyov"><img class="card__social-link card__social-link__git" src="./assets/github_logo.png" alt="Лого Гитхаб"/></a>
+                </div>
+                <button class="card__download-cv-button">Download CV</button>
+                <div class="card__footer">@2021 All rights reserved.</div>
+            </div>
+            <div class="card__wrapper-main">
+                <h1 class="card__user-name card__bold-name">Alexander Kiselyov</h1>
+                <h3 class="card__user-position card__bold-position">Student</h3>
+                <div id="skills" class="card__user-skills-button"></div>
+            </div>
+        </div>
+    </body>
+    <!-- inject:js -->
+    <script src="./js/toggle.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <!-- endinject -->
+</html>
