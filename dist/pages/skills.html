@@ -30,15 +30,17 @@
             <div class="card__wrapper-main">
                 <div class="card__user-name card__bold-name">My skills</div>
                 <div id="card__skills-wrapper" class="card__skills-wrapper"></div>
-                <input id="newSkillName" class="card__skill-name-field" type="text" placeholder="Skill name"/>
-                <input id="newSkillValue" class="card__skill-value-field" type="number" min="0" max="100" placeholder="Skill value"/>
-                <button id="addNewSkill" class="card__skill-add">Add new skill</button>
+                <form id="newSkillForm">
+                    <input id="newSkillName" class="card__skill-name-field" type="text" name="SkillName" placeholder="Skill name"/>
+                    <input id="newSkillValue" class="card__skill-value-field" type="number" min="0" max="100" name="SkillValue" placeholder="Skill value"/>
+                    <input type="submit" id="addNewSkill" class="card__skill-add" value="Add new skill"/>
+                </form>
                 <div id="skills" class="card__user-skills-button"></div>
             </div>
         </div>
     </body>
     <!-- inject:js -->
     <script src="../js/toggle.js"></script>
-    <script src="../js/skills.js"></script>
+    <script type="module" src="../js/index.js"></script>
     <!-- endinject -->
 </html>
