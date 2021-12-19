@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.documentElement.setAttribute('theme', 'light');
         }
     }
-}
+});
