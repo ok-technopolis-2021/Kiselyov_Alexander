@@ -1,0 +1,112 @@
+.card__user-skills-button {
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card__user-skills-button:before {
+  position: absolute;
+  display: inline-flex;
+  width: 33%;
+  height: 33%;
+  content: '';
+  top: 32%;
+  left: var(--card__skills-button-hor-disp);
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(var(--card__skills-button-rotate));
+}
+
+.card__user-skills-button:hover {
+  background-color: lightgray;
+}
+
+.card__user-skills-button:hover:before {
+  border-color: gray;
+}
+
+.card__skills-wrapper {
+  width: 90%;
+  height: 65%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: auto;
+}
+
+.card__skill-container {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+}
+
+.card__progress {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.card__progress-bar {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.card__progress-moved .card__progress-bar {
+  background-color: #006400;
+}
+
+.card__skill-percent {
+}
+
+.card__skill-name-field {
+  display: inline-block;
+  position: absolute;
+  border-radius: 5px;
+  line-height: 30px;
+  background-color: #C0C0C0;
+  font-size: 20px;
+  left: 5%;
+  bottom: 30px;
+  width: 30%;
+}
+
+.card__skill-value-field {
+  display: inline-block;
+  position: absolute;
+  border-radius: 5px;
+  line-height: 30px;
+  background-color: #C0C0C0;
+  font-size: 20px;
+  left: 40%;
+  bottom: 30px;
+  width: 20%;
+}
+
+.card__skill-add {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  position: absolute;
+  height: 36px;
+  left: 65%;
+  bottom: 30px;
+  width: 20%;
+}
+
+.card__skill-delete {
+  align-self: center;
+  margin-left: 40px;
+  background-color: #E0FFFF;
+  border-radius: 5px;
+  line-height: 30px;
+}
